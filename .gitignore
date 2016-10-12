@@ -1,0 +1,65 @@
+test-output/
+
+######################
+# Workflow
+######################
+*.bpmn2d
+
+######################
+# Eclipse
+######################
+.project
+.metadata
+/bin/**
+/tmp/**
+/tmp/**/*
+*.tmp
+*.bak
+*.swp
+local.properties
+.classpath
+.settings/**
+
+######################
+# Intellij
+######################
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Maven
+######################
+/log/**
+/target/**
+
+######################
+# Gradle
+######################
+.gradle/**
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
